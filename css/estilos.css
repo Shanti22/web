@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+body {
+background-image: url('/imgs/yugiohbg.jpg');
+background-attachment: fixed;
+background-size: cover;
+background-color: #1d67b8;
+  margin: 0;
+  padding: 15px;
+  
+}
+
+main,header img,nav{
+  display: block;
+  background-color: #4874bb;
+  max-width: 600px; 
+padding: 20px;
+  border: 3px solid #00000088; 
+  margin: 0px auto 20px;
+  
+}
+.logos{
+  display: block;
+  max-width: 520px;
+  padding: 1px;
+  margin: 0px auto 20px;
+  
+}
+
+
+h1{
+visibility: hidden;
+}
+h2{
+  text-align: center;
+  padding: 5px 15px;
+  color: #000000;
+  letter-spacing: 2px;
+  box-shadow: 1px 1px 4px rgba(28, 1, 180, 0.936);
+
+  
+}
+.cuadro_personaje{
+background-color: #1c58e55c;
+padding: 20px;
+  border: 3px solid #00000088; 
+  margin: 0px auto 20px;
+}
+main strong{
+ 
+color:#88b2ff;
+}
+main em{
+  
+  color:#6ec5ff
+}
+.cuadro_personaje img{
+  float: right;
+  height: 180px;
+  border-radius: 70px;
+
+}
+.cuadro_personaje h4{
+  color: #2525bf;
+}
+.cuadro_personaje span{
+
+  border-radius: 25px;
+font-size: 25px;
+color: aqua;
+}
+          .introduccion{
+            display: block;
+            background-color: #1c58e55c;
+            max-width: 600px; 
+          padding: 20px;
+        margin-bottom: 10px;
+            border: 3px solid #00000088; 
+            
+          }
+            nav{
+              text-align: center;
+            }
+            nav a{
+              margin: 10px;
+              border-radius: 8px;
+              text-decoration: none;
+              font-size: 25px;
+              color: whitesmoke;
+             background-color: #0f4b8c;
+            
+            }
+            nav>a:hover{
+              background-color: #1c58e55c;
+            }
+    #tcg{
+      width: 250px;
+      float: left;
+    }
+    #tcg2{
+      width: 250px;
+      float: right;
+    }
+    footer{
+      background-color: #1c58e5;
+      border: 3px solid #081b465c; 
+     
+      
+    }
+    footer img{
+      float: left;
+      width: 250px;
+    }
+    footer strong{
+      font-size: 15px;
+    }
+    footer p{
+      margin: 0px;
+      padding: 0px;
+    }
